@@ -1,0 +1,5 @@
+width = int(input("enter your rectangle's width here"))
+length = int(input("enter your rectangle's length here"))
+print((width + length)*2)
+age = int(input("enter your age here"))
+print(age + 10)
