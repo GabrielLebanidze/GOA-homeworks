@@ -9,7 +9,7 @@ number5 = int(input("enter your fifth number here "))
 for i in range(1):
     print((number1 + number2 + number3 + number4 + number5)/5)
 
-# # if არის keyword, რისი საშუალებითაც ვაძლევთ კომპიუტერს საშუალებას, რომ მიიღოს გადაწყვეტილება. მაგ: თუ რამე არის true, ქენი ეს.
+# if არის keyword, რისი საშუალებითაც ვაძლევთ კომპიუტერს საშუალებას, რომ მიიღოს გადაწყვეტილება. მაგ: თუ რამე არის true, ქენი ეს.
 if number1 == 1:
     print("your number is 1")
 
