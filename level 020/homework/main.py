@@ -29,5 +29,4 @@ while number<=10:
 number1=int(input("Enter your number here "))
 while number1!=5:
     number1=int(input("Wrong number "))
-else:
-    print("You win!")
+print("You win!")
