@@ -1,0 +1,14 @@
+button {
+    color: red;
+    background-color: black;
+}
+
+.class1 {
+    color: black;
+    background-color: red;
+}
+
+#yes {
+    color: blue;
+    background-color: purple;
+}

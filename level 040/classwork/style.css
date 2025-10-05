@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    background-color: black;
+}
+
+.class1 {
+    background-color: red;
+    color: black;
+}
+
+#pirveli {
+    background-color: green;
+    color: aqua;
+}
+
+div {
+    background-color: purple;
+}
+
+.class2 {
+    background-color: blue;
+}
+
+#unikaluri {
+    background-color: brown;
+}
