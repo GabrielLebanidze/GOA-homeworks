@@ -1,0 +1,27 @@
+button {
+    color: rgb(100, 0, 255);
+}
+
+.sigmer {
+    color: #000000;
+}
+
+#a {
+    color: red; background-color: black;
+}
+
+#b {
+    color: green; background-color: blue;
+}
+
+#g {
+    color: aqua; background-color: azure;
+}
+
+#d {
+    text-align: right; color: bisque;
+}
+
+#e {
+    text-align: left; color: brown; background-color: black;
+}

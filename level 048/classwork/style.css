@@ -1,0 +1,26 @@
+#sigmer {
+    color: red;
+}
+
+#gugugaga {
+    text-align: center;
+}
+
+#huh {
+    text-decoration: line-through wavy blue;
+}
+
+#no {
+    text-shadow: 6px 5px 13px black;
+}
+
+#yes {
+    text-transform: uppercase;
+}
+
+#idk {
+    text-align: right;
+    text-decoration: underline double black;
+    text-shadow: 5px 6px blue;
+    text-transform: capitalize;
+}
