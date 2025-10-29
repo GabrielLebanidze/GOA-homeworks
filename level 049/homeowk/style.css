@@ -1,0 +1,16 @@
+/* @import არის css-ის თვისება. მისი გამოყენებით შეგვიძლია სხვის მიერ შექმნილი დიზაინი დავამატოთ ჩვენს ფაილში და გამოვიყენოთ.*/
+/* font-family თვისება გვჭირდება იმისთვის, რომ ტექსტის დამწერლობა, font შევცვალოთ.*/
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap');
+#yes {
+    font-family: "Oswald", sans-serif;
+}
+
+#no {
+    font-family: "Merriweather", cursive;
+}
+
+#idk {
+    font-family: "Gravitas One", serif;
+}
