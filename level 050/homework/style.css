@@ -1,0 +1,22 @@
+.pirveli:hover {
+    background-color: red;
+    border-style: dotted;
+    border-color: black;
+}
+
+#pirvelip {
+    border-radius: 20%;
+    border-style: solid;
+    border-color: red;
+}
+
+#meotxeli {
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+}
+
+#gilaki:active {
+    border-style:none;
+
+}
