@@ -1,0 +1,33 @@
+p {
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+}
+
+.linkebi {
+    color: blue;
+    text-decoration-line:none;
+}
+
+.linkebi:hover {
+    color: blue;
+    text-decoration-line: underline;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px dashed black;
+    transition: 0.3;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor:pointer
+}
+
+button:active {
+    background-color: orange;
+}
