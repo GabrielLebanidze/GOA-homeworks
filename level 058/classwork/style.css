@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pirveli {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#pirveli #fir {
+    background-color: blue;
+    color: white;
+}
+
+#pirveli #sec {
+    background-color: yellow;
+    color: black;
+}
+
+#pirveli #thir {
+    background-color: red;
+    color: white;
+}
+
+#pirveli #four {
+    background-color: gray;
+    color: black;
+}

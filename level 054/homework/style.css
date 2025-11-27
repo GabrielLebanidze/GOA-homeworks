@@ -1,0 +1,8 @@
+body{
+    background-color: blue;
+}
+#I li{
+    list-style-position: outside;
+    background-color: #CCE5FF;
+    border-collapse: separate;
+}

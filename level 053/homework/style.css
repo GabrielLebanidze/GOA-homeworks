@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+table #I {
+    background-color: black;
+}
+
+table #II {
+    background-color: blue;
+}
+
+table #III {
+    background-color: green;
+}
+
+table #IV {
+    background-color: yellow;
+}
+
+table #V {
+    background-color: red;
+}
+
+table #VI {
+    background-color: cyan;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mtavari {
+    background-color: red;
+    color:white;
+    display: flex;
+    height: 100vh;
+    width: 900px;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.yes {
+    text-align: center;
+    font-size: 25px;
+    background-color: gray;
+    color: black;
+    width: 200px;
+    height: 50px;
+}

@@ -1,0 +1,77 @@
+.daulagebeli1 {
+    list-style-type: disc;
+    list-style-position:inside ;
+}
+
+.daulagebeli2 {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.daulagebeli3 {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.dalagebuli1 {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.dalagebuli2 {
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+}
+
+.dalagebuli3 {
+    list-style-type:lower-roman;
+    list-style-position: inside;
+}
+
+.dalagebuli4 {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.dalagebuli5 {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+.dalagebuli6 {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+.dalagebuli7 {
+    list-style-type:armenian;
+    list-style-position: inside;
+}
+
+.dalagebuli8 {
+    list-style-type: georgian;
+    list-style-position: inside;
+}
+
+.dalagebuli9 {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+.dalagebuli10 {
+    list-style-position: inside;
+    list-style-type: upper-alpha;
+}
+
+.dalagebuli11 {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.div1 li::marker {
+    color: green;
+}
+
+.div2 li::marker {
+    color: red;
+}
