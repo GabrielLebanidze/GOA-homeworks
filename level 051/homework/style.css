@@ -1,0 +1,32 @@
+.yeh {
+    font-size: 40px;
+    transition-duration: 2s;
+}
+
+#idk:link {
+    text-decoration: line-through;
+    color: white;
+    transition-duration: 2s;
+}
+
+#idk:hover {
+    text-decoration: overline;
+    color: black;
+    transition-duration: 2s;
+}
+
+#idk:active {
+    text-decoration: double;
+    color: bisque;
+    transition-duration: 2s;
+}
+
+#waza:hover {
+    text-decoration: line-through;
+    color: beige;
+}
+
+#yo:active {
+    text-decoration: underline;
+    color: coral;
+}

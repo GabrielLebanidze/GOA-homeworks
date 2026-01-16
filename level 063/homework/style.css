@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Gravitas+One&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gravitas+One&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mtavari {
+    background-color: white;
+    width: 700px;
+    height: 525px;
+    border-radius: 15px;
+    display: flex;
+}
+
+img {
+    height: 525px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.buy {
+    height: 37px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+}
+
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.NameAndDesc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+}
+
+
+#newprice {
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    margin-right: 20px;
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+}
+
+#oldprice {
+    color: gray;
+    text-decoration: line-through;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.yes {
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+}
+
+.design {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#message {
+    height: 150px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    width: 500px;
+    height: 50px;
+    border-style: none;
+}

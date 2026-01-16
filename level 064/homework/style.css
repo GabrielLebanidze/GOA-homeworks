@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mtavari {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 700px;
+}
+
+.d {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.3);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.d2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(82, 67, 67, 0.5);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+#d1 {
+    background-image: url(https://cdn.ama.ab.ca/amatravelinternal/articles/images/gangnam-city-seoul-south-korea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d2 {
+    background-image: url(https://storage.georgia.travel/images/tbilisi-capital-of-georgia-country.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#d3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#d4 {
+    background-image: url(https://img.static-af.com/transform/45cb9a13-b167-4842-8ea8-05d0cc7a4d04/) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#d5 {
+    background-image: url(https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#d6 {
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/615840570.jpg?k=dc452d890726edd24360afe0365101432e2e7e67d34bc2d31e410752687eecc9&o=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

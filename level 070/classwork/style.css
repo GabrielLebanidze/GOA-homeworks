@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(135deg);
+    }
+
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(220deg);
+    }
+}
+
+
+#spin {
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

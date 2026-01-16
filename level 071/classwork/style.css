@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+
+.idk {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+
+
+@media (max-width: 768px) { 
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .idk {
+        background-color: green;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .idk {
+        background-color: aqua;
+    }
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* display: grid
+grid-template-columns: px px px px (first, second, third, fourth svetebis zomebi, gagrzeleba sheizleba). sheizleba davwerot funqcia repeat(gameorebis_raodenoba, pixel)
+grid-column-start: (romel svetze gamochndes)
+grid-row-start: (romel rigze gamochndes)
+grid-column da row-end: startebis sapirispiro
+grid-row: gaertianebuli row start da end
+grid-column: gaertianebuli column start da end
+grid-area: gaertianebulia grid-row da grid-column.
+*/
