@@ -1,0 +1,16 @@
+const date = new Date()
+
+console.log(date.getDate())
+console.log(date.toISOString())
+console.log(date)
+date.setHours(1)
+console.log(date.getHours())
+date.setMinutes(5)
+console.log(date.getMinutes())
+date.setSeconds(12)
+console.log(date.getSeconds())
+
+const d = new Date()
+console.log(d)
+const da = Date.now()
+console.log(da)

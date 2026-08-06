@@ -1,0 +1,5 @@
+const randomNums = () => {
+    return [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100]
+}
+
+export {randomNums}

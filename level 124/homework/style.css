@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: gray;
+}
+
+.user{
+    margin-bottom: 30px;
+    color: red;
+}
+
+.email{
+    color: blue;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: darkgreen;
+    border: none;
+}
